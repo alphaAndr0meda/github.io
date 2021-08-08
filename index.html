@@ -1,1 +1,49 @@
-<h1>Hello!</h1>
+<!doctype>
+<html>
+   <head>
+       <!-- Facebook Pixel Code -->
+       <script>
+           !function(f,b,e,v,n,t,s)
+           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+           if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+           n.queue=[];t=b.createElement(e);t.async=!0;
+           t.src=v;s=b.getElementsByTagName(e)[0];
+           s.parentNode.insertBefore(t,s)}(window, document,'script',
+           'https://connect.facebook.net/en_US/fbevents.js');
+           fbq('init', '144211820921793');
+           fbq('track', 'PageView');
+       </script>
+       <noscript><img height="1" width="1" style="display:none"
+           src="https://www.facebook.com/tr?id=144211820921793&ev=PageView&noscript=1"
+       /></noscript>
+       <!-- End Facebook Pixel Code -->
+   </head>
+
+   <body>
+      <h1>Welcome to Abhinavs's outdoor store</h1>
+      <h2>Fishing</h2>
+      <h3>Fish Finder</h3>
+      <button type="button" onclick="alert('Purchased a fish finder successfully')">Purchase</button>
+      <h3>Fishing Rod Kit</h3>
+      <button type="button" onclick="alert('Purchased fishing rod kit successfully')">Purchase</button>
+      <h3>Fishing Net</h3>
+      <button type="button" onclick="alert('Viewed content of fishing net')">View Content</button>
+      <h3>Fishing Lures</h3>
+      <button type="button" onclick="alert('Added fishing lures to cart')">Add to Cart</button>
+      <h3>Backpack</h3>
+      <button type="button" onclick="alert('Added backpack to wishlist')">Add to Wish List</button>
+      <h3>Sunglasses</h3>
+      <button type="button" onclick="alert('Initiated checkout for sunglasses')">Initiate checkout</button>
+	   
+	    <ul>
+	        <li><a href="#" onClick=fireEvent('Purchase')>Purchase</a></li>
+	        <li><a href="#" onClick=fireEvent('AddToCart')>AddToCart</a></li>
+	        <li><a href="#" onClick=fireEvent('Lead')>Lead</a></li>
+	        <li><a href="#" onClick=fireEvent('Search')>Search</a></li>
+	        <li><a href="#" onClick=fireEvent('sign_up')>Sign_up</a></li>
+	    </ul>
+   </body>
+</html>
+
+
